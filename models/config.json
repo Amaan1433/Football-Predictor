@@ -1,0 +1,33 @@
+{
+  "elo": {
+    "k": 10.0,
+    "home_adv": 30.0,
+    "season_regress": 0.2,
+    "init": 1500.0
+  },
+  "logit": {
+    "C": 0.1
+  },
+  "poisson": {
+    "rho_fitted_on_train": -0.028301185975626333
+  },
+  "xgb": {
+    "max_depth": 2,
+    "n_estimators": 300,
+    "learning_rate": 0.03,
+    "subsample": 0.8,
+    "colsample_bytree": 0.7,
+    "min_child_weight": 10,
+    "reg_lambda": 5.0
+  },
+  "splits": {
+    "train": [
+      "2006-07",
+      "2023-24"
+    ],
+    "valid": "2024-25",
+    "test": "2025-26",
+    "train_rows": 6840,
+    "valid_rows": 380
+  }
+}
